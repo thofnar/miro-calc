@@ -5,7 +5,7 @@ miro.onReady(() => {
     miro.initialize({
         extensionPoints: {
             bottomBar: {
-                title: 'Story Point Summary',
+                title: 'Label Calculator',
                 svgIcon: '<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">\n'
                 + '    <g id="icon-24" stroke="currentColor" stroke-width="3" fill="none">\n'
                 + '        <rect cx="8" cy="4" rx="4" ry="4" width="24" height="24"/>\n'
