@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Story Point Summary</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="sidebar__content">
+      <div id="stat-container" class="stat-list">
+        <div class="stat-list__header">Story Points</div>
+      </div>
+    </div>
+
+    <div class="scrollable-container">
+      <button id="addRow" class="add-row-button" onclick="addRowInput('')">Add Row</button>
+      <div id="rows"></div>
+      <button id="submit" class="build-button">Build template</button>
+    </div>
+
+    <script src="https://miro.com/app/static/sdk.1.1.js"></script>
+    <script src="src/calc.js"></script>
+  </body>
+</html>
